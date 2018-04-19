@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         values.put(ClothesEntry.COLUMN_CLOTHES_NAME, "Skirts");
         values.put(ClothesEntry.COLUMN_CLOTHES_PRICE, "10.5");
         values.put(ClothesEntry.COLUMN_CLOTHES_QUANTITY, "8");
-        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER, "constantinos");
+        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER, "Constantinos");
         values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER_PHONE, "123");
 
         return db.insert(ClothesEntry.TABLE_NAME, null, values);

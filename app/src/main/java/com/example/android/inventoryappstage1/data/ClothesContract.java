@@ -60,7 +60,7 @@ public final class ClothesContract {
          * <p>
          * Type: TEXT
          */
-        public final static String COLUMN_CLOTHES_SUPPLIER_PHONE = "supplier phone";
+        public final static String COLUMN_CLOTHES_SUPPLIER_PHONE = "phone";
     }
 }
 
