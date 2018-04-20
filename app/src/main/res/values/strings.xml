@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Inventory App Stage1</string>
+
+    <string name="product_name">Skirts</string>
+    <string name="price">10.5</string>
+    <string name="quantity">9</string>
+    <string name="supplier_name">Constantinos</string>
+    <string name="supplier_phone_number">123</string>
 </resources>

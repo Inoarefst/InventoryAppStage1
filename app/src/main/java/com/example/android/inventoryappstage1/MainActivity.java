@@ -128,11 +128,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Create a ContentValues object where column names are the keys,
         ContentValues values = new ContentValues();
-        values.put(ClothesEntry.COLUMN_CLOTHES_NAME, "Skirts");
-        values.put(ClothesEntry.COLUMN_CLOTHES_PRICE, "10.5");
-        values.put(ClothesEntry.COLUMN_CLOTHES_QUANTITY, "8");
-        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER, "Constantinos");
-        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER_PHONE, "123");
+        values.put(ClothesEntry.COLUMN_CLOTHES_NAME, getString(R.string.product_name));
+        values.put(ClothesEntry.COLUMN_CLOTHES_PRICE, getString(R.string.price));
+        values.put(ClothesEntry.COLUMN_CLOTHES_QUANTITY, getString(R.string.quantity));
+        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER, getString(R.string.supplier_name));
+        values.put(ClothesEntry.COLUMN_CLOTHES_SUPPLIER_PHONE, getString(R.string.supplier_phone_number));
 
         return db.insert(ClothesEntry.TABLE_NAME, null, values);
     }
